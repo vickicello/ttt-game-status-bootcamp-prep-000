@@ -39,11 +39,7 @@ def draw?(board)
 end
 
 def over?(board)
-  if full?(board) || won?(board).kind_of?(Array) || draw?(board)
-    true
-  else 
-    false
-  end
+  won?(board) || draw?(board)
 end
 
 def winner(board)
