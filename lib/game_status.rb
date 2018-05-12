@@ -42,7 +42,7 @@ end
 end
 
 def over?(board)
-  if full?(board) || won?(board) || draw?(board)
+  if full?(board) || won?(board).kind_of?(Array) || draw?(board)
     true
   else 
     false
