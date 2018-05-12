@@ -44,8 +44,8 @@ end
 
 def winner(board)
    winning_array = won?(board)
-   if winning_array.kind_of?(Array)
-     board[winning_array[0]]
+   if 
+     board[won?(board)[0]]
    else
      nil
    end
