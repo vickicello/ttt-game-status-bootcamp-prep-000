@@ -48,10 +48,5 @@ def winner(board)
      "O"
    end
 end
-end
-   winning_array = won?(board)
-   if won?(board)
-     board[won?(board)[0]]
-  end
-end
+
   
