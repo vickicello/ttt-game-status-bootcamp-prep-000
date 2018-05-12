@@ -26,7 +26,7 @@ WIN_COMBINATIONS = [
 end
 
 def full?(board)
-  if position_taken 
+  board.all?
     
   
     
