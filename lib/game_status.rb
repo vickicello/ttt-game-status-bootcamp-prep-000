@@ -18,5 +18,9 @@ WIN_COMBINATIONS = [
   WIN_COMBINATIONS.each do | win_combination |
     if board[win_combination[0]] == "X" && board[win_combination[1]] == "X" && board[win_combination[2]] == "X"
       puts win_combination
-    elsif 
+    elsif board[win_combination[0]] == "O" && board[win_combination[1]] == "O" && board[win_combination[2]] == "O"
+      puts win_combination
+    end
+  end
+end
     
