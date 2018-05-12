@@ -30,6 +30,12 @@ def full?(board)
 end
 
 def draw?(board)
-  board.all?{|position| position
+  full?(board) && won?(board)
+end
+
+def over?(board)
+  full?(board) || won?(board) || draw?(board)
+end
+
   
     
