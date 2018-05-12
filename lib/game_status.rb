@@ -27,6 +27,7 @@ end
 def full?(board)
   !board.any? do |board_position|
    board_position == " "
+ end
 end
 
 def draw?(board)
