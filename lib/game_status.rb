@@ -50,9 +50,12 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board)
-    board[won?(board)[0]]
-  end
+   winning_array = won?(board)
+   if winning_array.kind_of?(Array)
+     board[winning_array[0]]
+   else
+     nil
+   end
 end
   
     
