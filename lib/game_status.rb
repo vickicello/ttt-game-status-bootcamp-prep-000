@@ -14,8 +14,6 @@ WIN_COMBINATIONS = [
   [2,5,8]
   ]
   
-
-
   def won?(board)
   if WIN_COMBINATIONS = false
     nil
