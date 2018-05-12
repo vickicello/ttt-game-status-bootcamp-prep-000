@@ -15,5 +15,6 @@ WIN_COMBINATIONS = [
   ]
   
   def won?(board)
-  WIN_COMBINATIONS.each do
+  WIN_COMBINATIONS.each do | board |
     puts WIN_COMBINATIONS.inspect
+    
