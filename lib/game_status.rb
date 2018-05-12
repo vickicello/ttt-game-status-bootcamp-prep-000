@@ -43,6 +43,15 @@ def over?(board)
 end
 
 def winner(board)
+  winning_combination = won?(board)
+  if winning_combination == nil
+     nil
+     elsif board[winning_combination[0]] == "X"
+     "X"
+   else
+     "O"
+   end
+end
    winning_array = won?(board)
    if won?(board)
      board[won?(board)[0]]
