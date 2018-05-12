@@ -24,4 +24,9 @@ WIN_COMBINATIONS = [
   end
   false
 end
+
+def full?(board)
+  if position_taken 
+    
+  
     
